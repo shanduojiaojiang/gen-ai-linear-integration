@@ -89,15 +89,3 @@ def find_similar_task(transcript, existing_tasks, api_key):
     except Exception as e:
         print(f"find_similar_task(): Error finding similar task. Exception: {str(e)}")
         return None
-
-# print("SJ testing!!!")
-# tasks = [
-#     {'id': '6c408c81-4ac4-4dd6-910a-dc55b195d547', 
-#      'title': 'SJ test 2', 
-#      'description': 'creating test2'}, 
-#      {'id': '5ad3172f-85d6-4b36-8ad5-940601b1c5a9', 
-#       'title': 'SJ test 1', 
-#       'description': 'creating test 1'}
-#       ]
-# find_similar_task("SJ testing 2", tasks, 'sk-None-TaWRC5UMEM1bRpptrONlT3BlbkFJk5ZmszCuHwMqoH5jX5DU')
-# classify_conversation("testing tesing", 'sk-None-TaWRC5UMEM1bRpptrONlT3BlbkFJk5ZmszCuHwMqoH5jX5DU')

@@ -135,8 +135,3 @@ def add_comment_to_task(task_id, comment):
     except Exception as e:
         print(f"add_comment_to_task(): Error adding comment to Linear task. Exception: {str(e)}")
         return None
-    
-# get_team_id()
-# create_linear_task("7ac8c5fb-b65a-4f9b-8be8-2720ec29349e", "SJ test 2", "creating test2")
-# print(fetch_existing_tasks())
-# add_comment_to_task("6c408c81-4ac4-4dd6-910a-dc55b195d547", "I just want to see if this works ahhaha")
